@@ -6,7 +6,7 @@ RegisterRouter
     .route("/register")
     .post((req, res)=>{
         const {
-            first_naame,
+            first_name,
             last_name,
             address,
             suite,
@@ -19,7 +19,7 @@ RegisterRouter
         } = req.body;
 
         const newUser = {
-            first_naame,
+            first_name,
             last_name,
             address,
             suite,

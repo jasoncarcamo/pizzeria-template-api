@@ -11,5 +11,7 @@ CREATE TABLE users (
     email TEXT,
     password VARCHAR(65535),
     points INTEGER DEFAULT 0,
-    member BOOLEAN DEFAULT FALSE
+    member BOOLEAN DEFAULT FALSE,
+    date_last_modified TIMESTAMP,
+    date_created TIMESTAMP
 );
