@@ -70,7 +70,6 @@ RegisterRouter
                         });
                     });
             });
-
     });
 
 module.exports = RegisterRouter;
